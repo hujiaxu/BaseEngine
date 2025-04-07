@@ -1,0 +1,20 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "declaration": true,
+    "declarationDir": "dist",
+    "lib": ["dom", "esnext", "webworker"],
+    "emitDeclarationOnly": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true
+  },
+  "include": ["src", "src/workers", "global.d.ts", "vite-env.d.ts"],
+  "exclude": [
+    "dist",
+    "node_modules",
+  ]
+}
